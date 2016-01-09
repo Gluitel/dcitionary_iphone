@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "413013071C3CD2D40081FE04"
-               BuildableName = "GaurabsDictionary.app"
-               BlueprintName = "GaurabsDictionary"
-               ReferencedContainer = "container:GaurabsDictionary.xcodeproj">
+               BuildableName = "Dictionary.app"
+               BlueprintName = "Dictionary"
+               ReferencedContainer = "container:Dictionary.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4130131B1C3CD2D40081FE04"
-               BuildableName = "GaurabsDictionaryTests.xctest"
-               BlueprintName = "GaurabsDictionaryTests"
-               ReferencedContainer = "container:GaurabsDictionary.xcodeproj">
+               BuildableName = "Dictionary.xctest"
+               BlueprintName = "DictionaryTests"
+               ReferencedContainer = "container:Dictionary.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "413013071C3CD2D40081FE04"
-            BuildableName = "GaurabsDictionary.app"
-            BlueprintName = "GaurabsDictionary"
-            ReferencedContainer = "container:GaurabsDictionary.xcodeproj">
+            BuildableName = "Dictionary.app"
+            BlueprintName = "Dictionary"
+            ReferencedContainer = "container:Dictionary.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "413013071C3CD2D40081FE04"
-            BuildableName = "GaurabsDictionary.app"
-            BlueprintName = "GaurabsDictionary"
-            ReferencedContainer = "container:GaurabsDictionary.xcodeproj">
+            BuildableName = "Dictionary.app"
+            BlueprintName = "Dictionary"
+            ReferencedContainer = "container:Dictionary.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -85,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "413013071C3CD2D40081FE04"
-            BuildableName = "GaurabsDictionary.app"
-            BlueprintName = "GaurabsDictionary"
-            ReferencedContainer = "container:GaurabsDictionary.xcodeproj">
+            BuildableName = "Dictionary.app"
+            BlueprintName = "Dictionary"
+            ReferencedContainer = "container:Dictionary.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

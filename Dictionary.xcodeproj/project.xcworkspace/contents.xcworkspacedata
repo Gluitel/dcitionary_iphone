@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:GaurabsDictionary.xcodeproj">
+      location = "self:/Users/gaurabluitel/Developer/xcode_Projects/GaurabsDictionary/Dictionary.xcodeproj">
    </FileRef>
 </Workspace>

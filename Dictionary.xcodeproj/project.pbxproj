@@ -26,14 +26,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		413013081C3CD2D40081FE04 /* GaurabsDictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GaurabsDictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		413013081C3CD2D40081FE04 /* Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4130130B1C3CD2D40081FE04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4130130D1C3CD2D40081FE04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		413013101C3CD2D40081FE04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		413013121C3CD2D40081FE04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		413013151C3CD2D40081FE04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		413013171C3CD2D40081FE04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4130131C1C3CD2D40081FE04 /* GaurabsDictionaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaurabsDictionaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4130131C1C3CD2D40081FE04 /* Dictionary.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dictionary.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		413013201C3CD2D40081FE04 /* GaurabsDictionaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaurabsDictionaryTests.swift; sourceTree = "<group>"; };
 		413013221C3CD2D40081FE04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -59,7 +59,7 @@
 		413012FF1C3CD2D40081FE04 = {
 			isa = PBXGroup;
 			children = (
-				4130130A1C3CD2D40081FE04 /* GaurabsDictionary */,
+				4130130A1C3CD2D40081FE04 /* Dictionary */,
 				4130131F1C3CD2D40081FE04 /* GaurabsDictionaryTests */,
 				413013091C3CD2D40081FE04 /* Products */,
 			);
@@ -68,13 +68,13 @@
 		413013091C3CD2D40081FE04 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				413013081C3CD2D40081FE04 /* GaurabsDictionary.app */,
-				4130131C1C3CD2D40081FE04 /* GaurabsDictionaryTests.xctest */,
+				413013081C3CD2D40081FE04 /* Dictionary.app */,
+				4130131C1C3CD2D40081FE04 /* Dictionary.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4130130A1C3CD2D40081FE04 /* GaurabsDictionary */ = {
+		4130130A1C3CD2D40081FE04 /* Dictionary */ = {
 			isa = PBXGroup;
 			children = (
 				4130130B1C3CD2D40081FE04 /* AppDelegate.swift */,
@@ -84,6 +84,7 @@
 				413013141C3CD2D40081FE04 /* LaunchScreen.storyboard */,
 				413013171C3CD2D40081FE04 /* Info.plist */,
 			);
+			name = Dictionary;
 			path = GaurabsDictionary;
 			sourceTree = "<group>";
 		};
@@ -99,9 +100,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		413013071C3CD2D40081FE04 /* GaurabsDictionary */ = {
+		413013071C3CD2D40081FE04 /* Dictionary */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 413013251C3CD2D40081FE04 /* Build configuration list for PBXNativeTarget "GaurabsDictionary" */;
+			buildConfigurationList = 413013251C3CD2D40081FE04 /* Build configuration list for PBXNativeTarget "Dictionary" */;
 			buildPhases = (
 				413013041C3CD2D40081FE04 /* Sources */,
 				413013051C3CD2D40081FE04 /* Frameworks */,
@@ -111,14 +112,14 @@
 			);
 			dependencies = (
 			);
-			name = GaurabsDictionary;
+			name = Dictionary;
 			productName = GaurabsDictionary;
-			productReference = 413013081C3CD2D40081FE04 /* GaurabsDictionary.app */;
+			productReference = 413013081C3CD2D40081FE04 /* Dictionary.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4130131B1C3CD2D40081FE04 /* GaurabsDictionaryTests */ = {
+		4130131B1C3CD2D40081FE04 /* DictionaryTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 413013281C3CD2D40081FE04 /* Build configuration list for PBXNativeTarget "GaurabsDictionaryTests" */;
+			buildConfigurationList = 413013281C3CD2D40081FE04 /* Build configuration list for PBXNativeTarget "DictionaryTests" */;
 			buildPhases = (
 				413013181C3CD2D40081FE04 /* Sources */,
 				413013191C3CD2D40081FE04 /* Frameworks */,
@@ -129,9 +130,9 @@
 			dependencies = (
 				4130131E1C3CD2D40081FE04 /* PBXTargetDependency */,
 			);
-			name = GaurabsDictionaryTests;
+			name = DictionaryTests;
 			productName = GaurabsDictionaryTests;
-			productReference = 4130131C1C3CD2D40081FE04 /* GaurabsDictionaryTests.xctest */;
+			productReference = 4130131C1C3CD2D40081FE04 /* Dictionary.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -146,6 +147,7 @@
 				TargetAttributes = {
 					413013071C3CD2D40081FE04 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8L8LH77W7M;
 					};
 					4130131B1C3CD2D40081FE04 = {
 						CreatedOnToolsVersion = 7.2;
@@ -153,7 +155,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 413013031C3CD2D40081FE04 /* Build configuration list for PBXProject "GaurabsDictionary" */;
+			buildConfigurationList = 413013031C3CD2D40081FE04 /* Build configuration list for PBXProject "Dictionary" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -166,8 +168,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				413013071C3CD2D40081FE04 /* GaurabsDictionary */,
-				4130131B1C3CD2D40081FE04 /* GaurabsDictionaryTests */,
+				413013071C3CD2D40081FE04 /* Dictionary */,
+				4130131B1C3CD2D40081FE04 /* DictionaryTests */,
 			);
 		};
 /* End PBXProject section */
@@ -215,7 +217,7 @@
 /* Begin PBXTargetDependency section */
 		4130131E1C3CD2D40081FE04 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 413013071C3CD2D40081FE04 /* GaurabsDictionary */;
+			target = 413013071C3CD2D40081FE04 /* Dictionary */;
 			targetProxy = 4130131D1C3CD2D40081FE04 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -325,10 +327,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = GaurabsDictionary/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = luitel.gaurab.GaurabsDictionary;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = luitel.gaurab.Dictionary;
+				PRODUCT_NAME = Dictionary;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -336,10 +342,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = GaurabsDictionary/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = luitel.gaurab.GaurabsDictionary;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = luitel.gaurab.Dictionary;
+				PRODUCT_NAME = Dictionary;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -350,8 +360,8 @@
 				INFOPLIST_FILE = GaurabsDictionaryTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = luitel.gaurab.GaurabsDictionaryTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GaurabsDictionary.app/GaurabsDictionary";
+				PRODUCT_NAME = Dictionary;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dictionary.app/Dictionary";
 			};
 			name = Debug;
 		};
@@ -362,15 +372,15 @@
 				INFOPLIST_FILE = GaurabsDictionaryTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = luitel.gaurab.GaurabsDictionaryTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GaurabsDictionary.app/GaurabsDictionary";
+				PRODUCT_NAME = Dictionary;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dictionary.app/Dictionary";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		413013031C3CD2D40081FE04 /* Build configuration list for PBXProject "GaurabsDictionary" */ = {
+		413013031C3CD2D40081FE04 /* Build configuration list for PBXProject "Dictionary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				413013231C3CD2D40081FE04 /* Debug */,
@@ -379,21 +389,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		413013251C3CD2D40081FE04 /* Build configuration list for PBXNativeTarget "GaurabsDictionary" */ = {
+		413013251C3CD2D40081FE04 /* Build configuration list for PBXNativeTarget "Dictionary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				413013261C3CD2D40081FE04 /* Debug */,
 				413013271C3CD2D40081FE04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		413013281C3CD2D40081FE04 /* Build configuration list for PBXNativeTarget "GaurabsDictionaryTests" */ = {
+		413013281C3CD2D40081FE04 /* Build configuration list for PBXNativeTarget "DictionaryTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				413013291C3CD2D40081FE04 /* Debug */,
 				4130132A1C3CD2D40081FE04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
