@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController, UITextFieldDelegate {
 
@@ -16,24 +17,32 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
         theWordToSearchFor.delegate = self
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
     
     @IBOutlet weak var theWordToSearchFor: UITextField!
     
+    @IBAction func pronounceButton(sender: UIButton) {
+            let text = AVSpeechUtterance(string: theWordToSearchFor.text!)
+            let speech = AVSpeechSynthesizer()
+            speech.speakUtterance(text)
+        }
+
     //The code for presenting the dictionary is from http://iosdevelopertips.com/core-services/ios-5-look-up-definitions-using-dictionary-service.html
     func textFieldDidEndEditing(textField: UITextField) {
+    }
+
+
+    
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
         if(UIReferenceLibraryViewController.dictionaryHasDefinitionForTerm(textField.text!)) {
             let rlvc: UIReferenceLibraryViewController  = UIReferenceLibraryViewController(term: textField.text!)
             presentViewController(rlvc, animated: true, completion: nil)
         }
+        return true
     }
     
-    func textFieldShouldReturn(textField: UITextField) -> Bool {
-        textField.resignFirstResponder()
+    func textFieldShouldClear(textField: UITextField) -> Bool {
+        theWordToSearchFor.clearsOnBeginEditing = false
         return true
     }
     

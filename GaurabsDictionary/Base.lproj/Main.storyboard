@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -17,27 +18,58 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter the word..." clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="LvD-xf-8mz">
-                                <rect key="frame" x="20" y="285" width="560" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="look it up" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Syg-Vb-fD2">
+                                <rect key="frame" x="249" y="28" width="102" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="look it up" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4ba-iT-xvU">
+                                <rect key="frame" x="263" y="235" width="74" height="22"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="go"/>
+                                <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter the word..." textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="LvD-xf-8mz">
+                                <rect key="frame" x="20" y="285" width="560" height="30"/>
+                                <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qru-zE-b1l">
+                                <rect key="frame" x="262" y="323" width="77" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="Vkz-5p-BPA"/>
+                                </constraints>
+                                <state key="normal" title="Listen to it!">
+                                    <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="pronounceButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HAq-8W-Uv3"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.62745098039215685" green="0.74509803921568629" blue="0.78431372549019607" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="LvD-xf-8mz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="Cah-zT-UDo"/>
-                            <constraint firstAttribute="trailing" secondItem="LvD-xf-8mz" secondAttribute="trailing" constant="20" id="NWR-a0-2rK"/>
-                            <constraint firstItem="LvD-xf-8mz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PXn-y2-Go6"/>
-                            <constraint firstItem="LvD-xf-8mz" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="hc5-1Y-fmt"/>
+                            <constraint firstItem="4ba-iT-xvU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4L3-FJ-ZTI"/>
+                            <constraint firstItem="Syg-Vb-fD2" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="6x8-uS-vvG"/>
+                            <constraint firstItem="Qru-zE-b1l" firstAttribute="top" secondItem="LvD-xf-8mz" secondAttribute="bottom" constant="8" symbolic="YES" id="9eT-fg-piV"/>
+                            <constraint firstItem="LvD-xf-8mz" firstAttribute="top" secondItem="4ba-iT-xvU" secondAttribute="bottom" constant="28" id="FyJ-FX-eFb"/>
+                            <constraint firstItem="Qru-zE-b1l" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Pxf-w0-FHx"/>
+                            <constraint firstItem="Syg-Vb-fD2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RKF-XG-OpH"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Qru-zE-b1l" secondAttribute="bottom" constant="244" id="WZP-kl-9aM"/>
+                            <constraint firstItem="LvD-xf-8mz" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="ch8-yW-Zz7"/>
+                            <constraint firstItem="LvD-xf-8mz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cqP-qC-IHF"/>
+                            <constraint firstItem="LvD-xf-8mz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="qDs-cY-BrG"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="theWordToSearchFor" destination="LvD-xf-8mz" id="hbB-I2-Pl3"/>
+                        <outlet property="theWordToSearchFor" destination="LvD-xf-8mz" id="TZG-gD-8bz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-109" y="250"/>
+            <point key="canvasLocation" x="-1193" y="7"/>
         </scene>
     </scenes>
 </document>
